@@ -1,26 +1,54 @@
 * {
+  margin: 0;
+  padding: 0;
 }
-.nav-menu {
-  width: 800px;
-  height: 70px;
-  background-color: bisque;
+body {
+  background-color: #eee;
+}
+.container {
+  max-width: 1000px;
+  background-color: #e4f9f5;
   margin: 0 auto;
+  padding: 20px;
 }
-.nav-menu ul {
+header {
 }
-.nav-menu ul li {
-  list-style-type: none;
+.profile-image {
+  max-width: 100px;
+  background-color: #e4f9f5;
+  border: 5px solid white;
+  border-radius: 50%;
   float: left;
-  margin: 20px;
 }
-.nav-menu ul a {
-  text-decoration: none;
-  font-size: 25px;
-  color: gray;
-  cursor: no-drop;
+.hrader-info {
+  float: left;
+  padding: 30px;
 }
-.nav-menu ul a:hover {
-  text-decoration: underline;
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.hadder-contact{
+    float: right;
+    padding: 30px;
+   
+}
+.hadder-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.hadder-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
 
-  color: rgb(0, 85, 116);
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: none;
 }
